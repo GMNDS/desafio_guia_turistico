@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    background-color: #F5F4F0;
+}
+.headline {
+    color: #E1624F;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+img {
+    border-radius: 28px;
+    width: 100%;
+}
+img.place {
+    height: 350px;
+    object-fit: cover;
+}
+
+img.main {
+    height: 660px;
+    object-fit: cover;
+}
+
+img + h3 {
+    margin-top: 20px;
+}
+
+p, footer {
+    color: #333333
+}
+
+p.subtitle {
+    font-style: italic;
+    margin-top: 24px;
+}
+
+p.description, p.subtitle {
+    text-align: center;
+}
+
+h3 + p{
+    margin-top: 4px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    color: #1B1B1B;
+}
+
+
+section {
+    margin: 88px 80px 40px;
+}
+
+section + section {
+    margin: 40px 80px 40px ;
+}
+.bom {
+    list-style: disc;
+    font-weight: bold;
+    
+}
+
+ol li {
+    margin-left: 40px;
+}
+
+.card + .card {
+    margin-top: 48px;
+}
+
+.bom {
+    margin-left: 22px;
+    
+}
+.bom::marker {
+    color: #333333;
+}
+
+.bom.blue {
+    color: #0C51A7;
+}
+
+.bom.pink {
+    color:#E5245E;
+}
+
+.bom.orange {
+    color: #E95E10;
+}
+
+.bom.purple {
+    color: #591B98;
+}
+
+
+.division {
+    height: 1px;
+    width: 100%;
+    background-color: #d9d9d9;
+    margin: 40px 0;
+}
+
+.titletwo {
+    margin: 64px 0;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 48px;
+}
